@@ -1,0 +1,564 @@
+/*Edits to all the page*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Specify the scroll behavior*/
+html {
+    scroll-behavior: smooth !important;
+}
+
+
+body {
+    background-color: #f0f0f0; 
+    font-family: sans-serif; 
+}
+
+
+/*Position of the head section*/
+.head_section .nav-main {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    flex-direction: column;  
+    flex-wrap: wrap;         
+    padding: 20px;
+    background-color: #f1efee; 
+    gap: 15px; 
+}
+
+.nav-main div h1 {
+    font-family: "Mrs Saint Delafield", cursive; 
+    font-size: 25px !important; 
+    color: #333;
+}
+
+/*Icons contact width and margin*/
+.socials a img {
+    width: 30px;
+    margin: 0 5px;
+}
+
+
+/*Position and background color or header nav*/
+header nav {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    padding: 20px;
+    background-color: #fff;
+    flex-wrap: wrap; 
+}
+
+/*Position of the list elements in the nav menu from the header*/
+header nav ul {
+    list-style: none; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: center; 
+    padding: 0; 
+    margin: 0; 
+}
+
+
+.list li {
+    padding: 10px 15px; 
+    border-radius: 10px;
+    transition: all 0.3s ease; 
+    margin: 5px; 
+}
+
+/*Animation at hover on any element from the nav menu.*/
+.list li:hover {
+    background: #e1d5d3;
+    transform: scale(1.05); 
+}
+
+
+header nav .list li a {
+    text-decoration: none; 
+    color: #000;
+    font-family: "Julius Sans One", sans-serif; 
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px; 
+}
+
+
+main {
+    background-color: #ffe7fb77; 
+    padding-bottom: 50px; 
+}
+
+h1 { 
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+}
+
+
+
+.m-h { 
+    margin: 20px auto; 
+    font-size: 35px;
+    text-decoration: underline; 
+    text-align: center; 
+    color: #543b75; 
+}
+
+.flex { 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/*Color, background and position of elements from the main presentation class*/
+.main_presentation {
+    color: #000000;
+    padding: 40px 20px; 
+    background-image: url(/Assets/Img/Imagen1.png); 
+    background-size: cover; 
+    background-position: center; 
+    min-height: 400px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main_presentation h1 {
+    margin: 0;
+    font-size: 38px; 
+    font-family: "Mrs Saint Delafield", cursive;
+    color: #fff; 
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.main_presentation h5 {
+    margin: 5px 0 15px 0;
+    font-size: 25px;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.main_presentation img {
+    border-radius: 50%; 
+    margin: 20px 0;
+    border: 5px solid rgba(255, 255, 255, 0.7); 
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+}
+
+.main_presentation img:hover {
+    transform: translateY(-3px); 
+    box-shadow: 3px 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+
+main .main_presentation button {
+    background-color: #f9ebff;
+    padding: 12px 25px; 
+    border: none;
+    border-radius: 8px; 
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3); 
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+main .main_presentation button:hover {
+    background-color: #e1d5d3;
+    transform: translateY(-3px); 
+    box-shadow: 3px 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+main .main_presentation button a {
+    text-decoration: none;
+    color: #543b75;
+    font-weight: bold;
+    font-family: "Julius Sans One", sans-serif;
+}
+
+/*Here start the stylized of skills section.*/
+.skills {
+    padding: 30px 0;
+}
+
+.skills article { 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px; 
+    margin-bottom: 40px; 
+}
+
+.skills h1 {
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    text-decoration: none;
+}
+
+.skills article img {
+    width: 80px; 
+    height: 80px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.skills article img:hover {
+    transform: scale(1.1); 
+}
+
+.list_skills ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 15px; 
+    margin-top: 20px; 
+}
+
+.list_skills ul li {
+    background-color: #be90fa; 
+    padding: 15px 25px; 
+    border-radius: 15px; 
+    color: #330372; 
+    font-weight: bold;
+    font-size: 1.1em; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 150px; 
+    min-height: 80px; 
+    cursor: pointer; 
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
+
+    /*Animation to move in a intercalade way the elements in the list of skills*/
+    animation-name: pulseScale;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both; 
+}
+
+/*How much every box can grow and get smaller in the animation movement, and the shadow we can see when that happens.*/
+@keyframes pulseScale {
+    0% {
+        transform: scale(0.9); 
+        background-color: #be90fa;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    50% {
+        transform: scale(1); 
+        background-color: #9b6bd9; 
+        box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+    }
+    100% {
+        transform: scale(0.9); 
+        background-color: #be90fa;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    }
+}
+
+/*The time scale to create an intercalate effect in the animation.*/
+.list_skills ul li:nth-child(1) { animation-delay: 0s; }
+.list_skills ul li:nth-child(2) { animation-delay: 0.15s; }
+.list_skills ul li:nth-child(3) { animation-delay: 0.30s; }
+.list_skills ul li:nth-child(4) { animation-delay: 0.45s; }
+.list_skills ul li:nth-child(5) { animation-delay: 0.60s; }
+.list_skills ul li:nth-child(6) { animation-delay: 0.75s; }
+.list_skills ul li:nth-child(7) { animation-delay: 0.90s; }
+.list_skills ul li:nth-child(8) { animation-delay: 1.05s; }
+.list_skills ul li:nth-child(9) { animation-delay: 1.20s; }
+.list_skills ul li:nth-child(10) { animation-delay: 1.35s; }
+.list_skills ul li:nth-child(11) { animation-delay: 1.50s; }
+.list_skills ul li:nth-child(12) { animation-delay: 1.65s; }
+
+
+/*The stylized of projects section*/
+.projects {
+    padding: 40px 20px; 
+}
+
+.projects h1 {
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    text-decoration: none;
+}
+
+.card_container {
+    flex-wrap: wrap; 
+    gap: 30px;
+    margin-top: 20px; 
+    padding: 20px; 
+}
+
+.card_container .card {
+    padding: 20px; 
+    border: 5px solid #fdc7ff25; 
+    color: #543b75;
+    background-color: #fff; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    flex: 1 1 300px; 
+    max-width: 450px; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.card img {
+    width: 100%; 
+    max-width: 300px; 
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px; 
+}
+
+.card p {
+    padding: 5px 0;
+    margin: 10px 0;
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+.card button {
+    padding: 12px 25px;
+    border-radius: 8px;
+    background-color: #d79cffbd;
+    border: none;
+    margin-top: 15px;
+    color: #543b75;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/*The hover effect on the buttons*/
+.card button:hover {
+    background-color: #b27df7;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+}
+.card button a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+.projects_marketing {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.projects_marketing h1,
+.projects_marketing h2 {
+    margin: 15px 0;
+    color: #543b75;
+}
+
+.projects_marketing ul { 
+    list-style: none; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    padding: 0; 
+    margin-top: 20px;
+}
+
+.projects_marketing ul li {
+    margin: 10px;
+    background-color: #b47bff;
+    color: #3a0069;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left; 
+    max-width: 700px; 
+    width: 100%; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.projects_marketing ul li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    transition: color 0.2s ease;
+}
+
+.projects_marketing ul li a:hover {
+    color: #543b75;
+}
+
+/*Here start the edition of the contact section*/
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.contact h1 {
+    margin-bottom: 20px;
+    font-size: 40px !important;
+    color: #543b75;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    text-decoration: none;
+}
+
+.contact form {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #f588ff13;
+    border-radius: 20px;
+    max-width: 600px; 
+    width: 100%; 
+    margin: 0 auto; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #b47bff;
+    font-size: 1em;
+}
+
+form button {
+    padding: 10px;
+    background-color: #ebdcff;
+    border: none;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border-color: #b47bff;
+    box-shadow: 0 0 5px rgba(180, 123, 255, 0.5);
+}
+
+form textarea {
+    min-height: 100px;
+    resize: vertical; 
+}
+
+/*Footer stylized and position*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #f1efee;
+    color: #555;
+    font-size: 0.9em;
+}
+
+footer img {
+    vertical-align: middle; 
+    margin: 0 5px;
+}
+
+
+
+
+/*Media Queries to get responsive every section*/
+@media screen and (min-width: 768px) {
+    .nav-main {
+        flex-direction: row; 
+        justify-content: space-between; 
+        padding: 20px 50px;
+    }
+    .head_section .nav-main h1 {
+        font-size: 45px !important;
+    }
+    .main_presentation h1 {
+        font-size: 45px;
+    }
+    .main_presentation h5 {
+        font-size: 32px;
+    }
+
+    header nav {
+        justify-content: center;
+        padding: 20px 50px;
+    }
+    header nav .list li a {
+        font-size: 22px; 
+    }
+
+    .skills article {
+        flex-direction: row; 
+        gap: 40px;
+    }
+    .skills article img {
+        width: 100px; 
+        height: 100px;
+    }
+
+    .list_skills ul {
+        flex-direction: row; 
+        justify-content: center;
+    }
+    .list_skills ul li {
+        font-size: 1.1em;
+        padding: 15px 25px;
+        min-width: 180px;
+        min-height: 80px;
+    }
+
+    .card_container {
+        justify-content: center; 
+    }
+    .card_container .card {
+        max-width: 400px; 
+        flex: 1 1 350px;
+    }
+    .card img {
+        max-width: 100%;
+    }
+
+    .projects_marketing ul li {
+        font-size: 1.05em;
+        padding: 20px 30px;
+    }
+    .contact form {
+        padding: 40px;
+    }
+}
+

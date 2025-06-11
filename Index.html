@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/CSS/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+        
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+
+    <title>Portfolio</title>
+
+</head>
+<body>
+<!--Firt section in the page. It contains the name and the three main social icons to get in contact.-->
+    <section class="head_section">
+        <div class="nav-main">
+            <div>
+                <h1>Luisa Fernanda Rondón Moreno</h1>
+            </div>
+
+            <div class="socials">
+                <a href="https://www.instagram.com/luisaferm_?igsh=MXE4MDEycW1rZGx6Zw=="><img src="./Assets/Img/instagram.png" alt="Instagram"></a>
+                <a href="https://wa.link/s6m6ds"><img src="./Assets/Img/whatsapp.png" alt="whatsapp"></a>
+                <a href="https://github.com/LuisaFer126"><img src="./Assets/Img/github.svg" alt="Github"></a>
+            </div>
+        </div>
+    </section>
+
+    <!--The header page with a list of the nav menu.-->
+    <header>
+        <nav>
+            <ul class="title_nav">
+                
+            </ul>
+            <ul class="list">
+                <li><a href="#Aboutme">About me</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main> <!--About me section witch is linked with the other html page that contains the information.-->
+        <section id="Aboutme" class="main_presentation">
+            
+            <h1>  Riwi Developer   </h1>
+            <h5>Marketing Specialist</h5>
+
+            <a href="./Templates/AboutMe.html"><img src="./Assets/Img/Foto.jpg" alt="" width="200px"></a>
+            <button><a href="./Templates/AboutMe.html">About me</a></button>
+        </section>
+          <!--Skills section-->
+        <section class="skills flex" id="Skills">
+            <h1 class="m-h">Development Skills</h1>
+
+            <article>
+                <!--Images to ilustrate the development skills.-->
+                <img src="./Assets/Img/icons8-html-96.png" alt="HTML5">
+                <img src="./Assets/Img/icons8-css-96.png" alt="CSS3">
+                <img src="./Assets/Img/Python.png" alt="Python">
+            </article>
+             <!--List of skills with animations-->
+            <article class="list_skills">
+                <h1 class="m-h">Marketing Skills</h1>
+                <ul>
+                    <li>Microsoft Applications Management</li>
+                    <li>Social Network Administration.</li>
+                    <li>Digital Marketing</li>
+                    <li>Creative Productions</li>
+                    <li>Creation and Desing of Marketing Strategies</li>
+                    <li>Formal and Persuasive Writing.</li>
+                    <li>ScriptWriting.</li>
+                </ul>
+            </article>
+        </section>
+
+        <!--Projects section with containers-->
+        <section class="projects flex" id="Projects">
+            <h1 class="m-h">Projects</h1>
+
+            <!--First container with the general views of the projects.-->
+            <article class="card_container flex">
+                <div class="card">
+                    <img src="./Assets/Img/projects.png" alt="Github-Repository-Screenshot">
+                    <p>Development Projects: Portfolio Website, this is my first project where I built a personal portfolio using HTML and CSS. Adding to that, here are my firts projects being in contact with Python. </p>
+                    <button><a href="https://github.com/LuisaFer126">More Info</a></button>
+                </div>
+
+                <div class="card flex">
+                    <img src="./Assets/Img/Imagen2.png" alt="Digital-Worker">
+                    <p>Projects as a Junior Consultant Role. Currently working on starting and creating a Marketing and Branding Agency called "CART". </p>
+                    <button><a href="https://wa.link/s6m6ds">More Info</a></button>
+                </div>
+            </article>
+            
+            <!--Second container that specify every marketing projects.-->
+            <article class="projects_marketing">
+                <h1>Project Development in a Junior Consultant Role</h1>
+                <h2>Brands/Companies Recommended:</h2>
+
+                <ul>
+                    <li><a href="https://docs.google.com/presentation/d/1cvaqEQY6HRDvq9GB22sIYfTwKIOPHSwcSJp-3gbn8XY/edit?usp=sharing">French Allience / 2024:</a> Development of marketing strategies, brand positioning, and market penetration.</li>
+                    <li><a href="https://www.canva.com/design/DAGCVxs4whQ/vIhBO9RWqar6qcyEJ_VRUg/edit?utm_content=DAGCVxs4whQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Baby Fresh - Crystal Group / 2024:</a> Designing a marketing strategy to enhance sales, foster customer loyalty, and elevate brand visibility.</li>
+                    <li><a href="https://www.canva.com/design/DAGMRw-97CY/1EjDIUOgVZvF9L7F8tRYBQ/edit?utm_content=DAGMRw-97CY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Rocketfy/ 2024:</a> Evaluation of organizational climate and culture. Formulation and enhancement of a contingency, improvement, and productivity strategy.</li>
+                    <li><a href="https://www.canva.com/design/DAGSR6fAZMs/XQA_qC_u9rFNiYPofj_IGw/edit?utm_content=DAGSR6fAZMs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Hda. LR Manzanillo/ 2024:</a> Prospective analysis. Market research. Formulation of a business model transition strategy, optimization, and profitability enhancement.</li>
+                </ul>
+            </article>
+        </section>
+
+        <!--Contact section-->
+        <section class="contact" id="Contact">
+            <h1>Contact</h1>
+            <!--Form or table to fill information and get in contact.-->
+            <form action="">
+                <label for="">Name</label>
+                <input type="text" name="" id="" placeholder="Your name here">
+                <label for="">Gmail</label>
+                <input type="email" name="" id="" placeholder="example@gmail.com">
+                <label for="">Message</label>
+                <textarea name="" id=""></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <!--The foother page.-->
+    <footer>
+        <p>Made with <img src="./Assets/Img/heart-svgrepo-com.svg" alt="Heart" width="10px"> by Luisa Fernanda</p>
+    </footer>
+</body>
+</html>
+    
+</body>
+</html>

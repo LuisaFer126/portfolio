@@ -1,0 +1,84 @@
+
+/*Bakground of the page*/
+body {
+    background-image: url(../Img/Imagen1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*Stylized, position and size of back button*/
+
+nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+    background-color: rgba(253, 246, 252, 0.683);
+    padding: 15px;
+    border-radius: 25px;
+    transition: all 1s ease;
+}
+
+ul li:hover {
+    background-color: rgba(171, 171, 171, 0.683);
+    transition: all 1s ease;
+}
+
+ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/*Position of the body section */
+section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: 28px !important;
+}
+
+
+/*Typography of h1*/
+section h1 {
+    font-size: 50px;
+    margin: 0;
+    font-family: "Mrs Saint Delafield", cursive;
+}
+
+section {
+    padding: 18px;
+    margin: 80px;
+}
+
+/*media queries*/
+@media screen and (min-width: 1024px) {
+    section h1 {
+        font-size: 70px;
+    }
+
+    section p {
+        font-size: 30px;
+        padding: 40px;
+    }
+}
+
+/*footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #f1efee;
+    color: #555;
+    font-size: 0.9em;
+    
+}
+
+footer img {
+    vertical-align: middle; 
+    margin: 0 5px;
+}
